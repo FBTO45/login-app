@@ -1,8 +1,8 @@
 ### **Arsitektur Teknis**
 
-Frontend (React) ←  → Backend (Express) ←  → Database (MySQL)
-        ↑                                         ↑                                          ↑
-  Browser                        Server Node.js                    MySQL Database
+Frontend (React) ← HTTP → Backend (Express) ← MySQL Driver → Database (MySQL)
+        ↑                         ↑                              ↑
+    Browser                Node.js Server                 MySQL Database
 
 ## MENJALANKAN BACKEND
 
